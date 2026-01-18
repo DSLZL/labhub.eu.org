@@ -61,10 +61,10 @@ export const Notification = () => {
         <div className="flex-1">
           <strong>{t('Welcome to LabHub!')}</strong>
           <br />
-          {t('Read our latest announcement on Reddit regarding the official group chat and channel.')}
+          {t('Keep up with the latest News on our official Telegram Channel.')}
           <br />
           <a
-            href="https://www.reddit.com/r/labhub/comments/1gat7hk/official_group_chat_taken_down_by_telegram/"
+            href="https://t.me/NetLabHub"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 flex items-center space-x-2 hover:opacity-80"
@@ -72,8 +72,8 @@ export const Notification = () => {
             <Image
               width={150}
               height={150}
-              src="https://img.shields.io/badge/Read%20Reddit%20Post-FF4500?style=for-the-badge&logo=reddit&logoColor=white"
-              alt="Read reddit post"
+              src="https://img.shields.io/badge/Join%20Telegram%20Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
+              alt="Join Telegram Channel"
             />
           </a>
         </div>
